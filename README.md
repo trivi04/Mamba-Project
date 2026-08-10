@@ -6,7 +6,6 @@ This project investigates the architectural shift from attention-based Transform
 
 The repo includes:
 
-A literature review tracing the S4 → Mamba → Mamba-2 → hybrid (Jamba) lineage
 A benchmarking harness comparing GPT-2 and Mamba-130M-HF on inference time, peak GPU memory, and perplexity across sequence lengths (256–2048 tokens)
 Isolated core-algorithm tests (full attention vs. prefix-linear scan) to empirically validate theoretical complexity claims
 Visualizations of time/memory scaling behavior for both architectures
